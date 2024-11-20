@@ -6,6 +6,7 @@
  * Version:           1.0
  * Author:            Sumit Jha
  * Author URI:        https://sumitjha.info.np/
+ * Requires Plugins:  woocommerce
  */
 
  //  Setup
