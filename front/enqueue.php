@@ -11,6 +11,12 @@ function woocommerce_custom_addons_scripts()
     [],
     time()
   );
+  wp_register_style(
+    'woocommerce-custom-addons-accounts-style',
+    PLUGIN_URL . 'public/css/accounts.css',
+    [],
+    time()
+  );
 
   // js
   wp_register_script(
@@ -21,5 +27,8 @@ function woocommerce_custom_addons_scripts()
   );
 
   wp_enqueue_style('woocommerce-custom-addons-style');
+  
+  wp_enqueue_style('woocommerce-custom-addons-accounts-style');
+
   wp_enqueue_script('woocommerce-custom-addons-script');
 }

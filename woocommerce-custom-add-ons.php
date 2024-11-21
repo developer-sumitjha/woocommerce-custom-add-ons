@@ -13,7 +13,7 @@
  define('PLUGIN_URL', plugin_dir_url(__FILE__));
 
 // Includes
-//  include('includes/breadcrumbs.php');
+ include('includes/accounts.php');
  include('front/enqueue.php');
 
 

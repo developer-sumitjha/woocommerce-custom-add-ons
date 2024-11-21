@@ -1,0 +1,48 @@
+
+:root{
+    --wcao-cont-width: 33.33%;
+    --wcao-inner-sec-gap: 12px;
+}
+.wcao-accounts-cont{
+    display: flex;
+    gap: var(--wcao-inner-sec-gap);
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.wcao-inner-section{
+    border: 1px solid black;
+    flex: 0 0 calc(var(--wcao-cont-width) - var(--wcao-inner-sec-gap));
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    min-height: 220px;
+    border-radius: 20px;
+}
+.wcao-inner-section a {
+    display: contents;
+}
+.wcao-inner-section.total-orders{
+    border: 1px solid #6DACE7;
+    background-color: #6DACE714;
+}
+
+.wcao-inner-section.last-order{
+    border: 1px solid #B09400;
+    background-color: #B0940014;
+}
+
+.wcao-inner-section.items-in-wishlist{
+    border: 1px solid #AA7AEB;
+    background-color: #AA7AEB14;
+}
+
+
+img.wcao-icon {
+    width: 80px;
+
+}
