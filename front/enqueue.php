@@ -17,6 +17,7 @@ function woocommerce_custom_addons_scripts()
     [],
     time()
   );
+  
 
   // js
   wp_register_script(
@@ -30,5 +31,10 @@ function woocommerce_custom_addons_scripts()
   
   wp_enqueue_style('woocommerce-custom-addons-accounts-style');
 
+
   wp_enqueue_script('woocommerce-custom-addons-script');
+
+  
+// wp_enqueue_style('admin-styles', PLUGIN_URL . 'admin/css/admin.css', array(), '1.0.0', false);
 }
+

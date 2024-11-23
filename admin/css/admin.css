@@ -1,0 +1,102 @@
+#wpcontent{
+    padding: 0px;
+}
+
+.wc-addon-header{
+    background: #fff;
+
+}
+
+
+
+.wc-addon-header h1{
+    margin: 0px;
+    padding: 24px;
+    margin-bottom: 24px;
+}
+
+.wc-addon-setting-inner-section{
+    display: flex;
+    padding: 24px;
+}
+
+.wc-addon-setting-inner-section .wc-addon-setting-sidebar{
+    flex: 0 0 250px;
+}
+
+.wc-addon-setting-inner-section .wc-addon-setting-content{
+    flex: 0 0 calc(100% - 250px);
+    background: #fff;
+    padding: 12px 24px;
+}
+
+.wc-addon-setting-inner-section .wc-addon-setting-content h2 {
+    font-size: 24px;
+    color: #0d5c89;
+}
+.wc-addon-setting-inner-section .wc-addon-setting-content hr {
+    margin-bottom: 24px;
+}
+.general-setting-form .row label {
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 24px;
+    line-height: 24px;
+}
+.general-setting-form .row input[type="checkbox"]{
+    width: 52px;
+    height: 24px;
+    border-radius: 20px;
+    background: #eaeaea;
+    border: none;
+}
+.general-setting-form .row input[type="checkbox"]:before {
+    content: 'X';
+    background: #fff;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.3);
+    border-radius: 20px;
+    height: 24px;
+    width: 24px;
+    margin-top: 0px;
+    margin-left: 1px;
+    display: block;
+    line-height: 22px;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #aeaeae;
+}
+.general-setting-form .row input[type="checkbox"]:focus {
+    box-shadow: none;
+}
+.general-setting-form .row input[type="checkbox"]:checked {
+    width: 52px;
+    height: 24px;
+    border-radius: 20px;
+    background: #98aa36;
+    border: none;
+}
+.general-setting-form .row input[type="checkbox"]:checked:before {
+    content: url("data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%2020%2020%27%3E%3Cpath%20d%3D%27M14.83%204.89l1.34.94-5.81%208.38H9.02L5.78%209.67l1.34-1.25%202.57%202.4z%27%20fill%3D%27%233582c4%27%2F%3E%3C%2Fsvg%3E");
+    background: #fff;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.3);
+    border-radius: 20px;
+    height: 24px;
+    width: 24px;
+    margin-top: 0px;
+    margin-left: 28px;
+}
+.setting-logo{
+    height: 40px;
+    width: auto;
+}
+
+.general-setting-form input[type="submit"] {
+    background-color: #00799f;
+    border: 1px solid #00799f;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 24px;
+}

@@ -13,9 +13,22 @@
  define('PLUGIN_URL', plugin_dir_url(__FILE__));
 
 // Includes
- include('includes/accounts.php');
+
  include('front/enqueue.php');
+ include('includes/settings.php');
+
+ include('includes/accounts.php');
+ include('includes/setting-logic.php');
 
 
 //  Hooks
 add_action('wp_enqueue_scripts', 'woocommerce_custom_addons_scripts', 100);
+
+wp_enqueue_style('wc-addons-admin-styles', plugin_dir_url( __FILE__ ) . 'admin/css/admin.css', array(), '1.0.0', false);
+
+
+
+
+
+// Hook this function to run on the frontend
+add_action('wp_enqueue_scripts', 'check_dashboard_stats_and_execute');

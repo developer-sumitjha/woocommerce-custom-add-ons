@@ -85,5 +85,3 @@ function get_user_order_count() {
 
         echo $output;
 }
-
-add_action('woocommerce_account_dashboard','get_user_order_count');
